@@ -1,0 +1,92 @@
+//
+// Automatically generated file. DO NOT MODIFY
+//
+
+soong_namespace {
+}
+
+filegroup {
+    name: "odin2_adsp",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b00",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b01",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b02",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b03",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b04",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b05",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b06",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b07",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b08",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b09",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b10",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b11",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b12",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b13",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b14",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b15",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b16",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b17",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b18",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b19",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b20",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b21",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b22",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b23",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b24",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b25",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b26",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b27",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b28",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b29",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b30",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b31",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b32",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b33",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b34",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b35",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b36",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b37",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b38",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b39",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b40",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b41",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b42",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b43",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b44",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b45",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b46",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b47",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b48",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b49",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b50",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b51",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b52",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b53",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b54",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b55",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b56",
+    ],
+}
+
+filegroup {
+    name: "odin2_adsp_mdt",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.mdt",
+    ],
+}
+
+filegroup {
+    name: "odin2_adsp_dtb",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp_dtb.b00",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp_dtb.b01",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp_dtb.b02",
+    ],
+}
+
+filegroup {
+    name: "odin2_adsp_dtb_mdt",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp_dtb.mdt",
+    ],
+}

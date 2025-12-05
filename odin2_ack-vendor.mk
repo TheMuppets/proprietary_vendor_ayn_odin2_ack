@@ -1,0 +1,13 @@
+#
+# Automatically generated file. DO NOT MODIFY
+#
+
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/ayn/odin2_ack
+
+PRODUCT_COPY_FILES += \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/adspr.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsps.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/adsps.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/adspua.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/aw883xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/aw883xx_acf.bin \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/battmgr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/battmgr.jsn
