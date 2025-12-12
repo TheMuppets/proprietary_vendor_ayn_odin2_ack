@@ -90,3 +90,89 @@ filegroup {
         "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp_dtb.mdt",
     ],
 }
+
+filegroup {
+    name: "thor_adsp",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b00",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b01",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b02",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b03",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b04",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b05",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b06",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b07",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b08",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b09",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b10",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b11",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b12",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b13",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b14",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b15",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b16",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b17",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b18",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b19",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b20",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b21",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b22",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b23",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b24",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b25",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b26",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b27",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b28",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b29",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b30",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b31",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b32",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b33",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b34",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b35",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b36",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b37",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b38",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b39",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b40",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b41",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b42",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b43",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b44",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b45",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b46",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b47",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b48",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b49",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b50",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b51",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b52",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b53",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b54",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b55",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.b56",
+    ],
+}
+
+filegroup {
+    name: "thor_adsp_mdt",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp.mdt",
+    ],
+}
+
+filegroup {
+    name: "thor_adsp_dtb",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp_dtb.b00",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp_dtb.b01",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp_dtb.b02",
+    ],
+}
+
+filegroup {
+    name: "thor_adsp_dtb_mdt",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adsp_dtb.mdt",
+    ],
+}
