@@ -6,6 +6,50 @@ soong_namespace {
 }
 
 filegroup {
+    name: "cdsp",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b00",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b01",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b02",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b03",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b04",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b05",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b06",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b07",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b08",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b09",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b10",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b11",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b12",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b13",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.b15",
+    ],
+}
+
+filegroup {
+    name: "cdsp_mdt",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp.mdt",
+    ],
+}
+
+filegroup {
+    name: "cdsp_dtb",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp_dtb.b00",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp_dtb.b01",
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp_dtb.b02",
+    ],
+}
+
+filegroup {
+    name: "cdsp_dtb_mdt",
+    srcs: [
+        "proprietary/vendor/firmware/qcom/sm8550/ayntec/cdsp_dtb.mdt",
+    ],
+}
+
+filegroup {
     name: "odin2_adsp",
     srcs: [
         "proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsp.b00",
