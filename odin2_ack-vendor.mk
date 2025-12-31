@@ -15,6 +15,12 @@ PRODUCT_COPY_FILES += \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/imagefv.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/imagefv.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/keymaster.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/keymaster.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/multiimgqti.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/multiimgqti.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2portal_abl.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2portal_abl.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2portal_bluetooth.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2portal_bluetooth.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2portal_multiimgoem.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2portal_multiimgoem.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2portal_uefi.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2portal_uefi.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2portal_xbl.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2portal_xbl.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2portal_xbl_config.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2portal_xbl_config.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/qupfw.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/qupfw.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/shrm.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/shrm.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/thor_abl.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/thor_abl.img \
