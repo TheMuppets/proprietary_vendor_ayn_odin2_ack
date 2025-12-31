@@ -6,6 +6,20 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/ayn/odin2_ack
 
 PRODUCT_COPY_FILES += \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/aop.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/aop.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/aop_config.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/aop_config.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/cpucp.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/cpucp.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/devcfg.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/devcfg.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/dsp.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/dsp.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/hyp.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/hyp.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/imagefv.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/imagefv.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/keymaster.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/keymaster.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/multiimgqti.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/multiimgqti.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/qupfw.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/qupfw.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/shrm.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/shrm.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/tz.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/tz.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/uefisecapp.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/uefisecapp.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/xbl_ramdump.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/xbl_ramdump.img \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/cdspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/cdspr.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/adspr.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adsps.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/adsps.jsn \
