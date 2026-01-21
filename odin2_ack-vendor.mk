@@ -12,6 +12,11 @@ PRODUCT_COPY_FILES += \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/adspua.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/aw883xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/aw883xx_acf.bin \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2/battmgr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2/battmgr.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2mini/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2mini/adspr.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2mini/adsps.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2mini/adsps.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2mini/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2mini/adspua.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2mini/aw883xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2mini/aw883xx_acf.bin \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2mini/battmgr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2mini/battmgr.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2portal/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2portal/adspr.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2portal/adsps.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2portal/adsps.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/odin2portal/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/odin2portal/adspua.jsn \
