@@ -71,6 +71,11 @@ PRODUCT_COPY_FILES += \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/thor/adspua.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/aw883xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/thor/aw883xx_acf.bin \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/ayntec/thor/battmgr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/ayntec/thor/battmgr.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/retroidpocket/nova/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/retroidpocket/nova/adspr.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/retroidpocket/nova/adsps.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/retroidpocket/nova/adsps.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/retroidpocket/nova/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/retroidpocket/nova/adspua.jsn \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/retroidpocket/nova/aw883xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/retroidpocket/nova/aw883xx_acf.bin \
+    vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/retroidpocket/nova/battmgr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/retroidpocket/nova/battmgr.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/retroidpocket/rp6/adspr.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/retroidpocket/rp6/adspr.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/retroidpocket/rp6/adsps.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/retroidpocket/rp6/adsps.jsn \
     vendor/ayn/odin2_ack/proprietary/vendor/firmware/qcom/sm8550/retroidpocket/rp6/adspua.jsn:$(TARGET_COPY_OUT_VENDOR)/firmware/qcom/sm8550/retroidpocket/rp6/adspua.jsn \
