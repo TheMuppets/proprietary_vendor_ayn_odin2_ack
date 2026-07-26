@@ -15,6 +15,12 @@ PRODUCT_COPY_FILES += \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/imagefv.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/imagefv.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/keymaster.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/keymaster.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/multiimgqti.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/multiimgqti.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/nova_abl.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/nova_abl.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/nova_bluetooth.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/nova_bluetooth.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/nova_multiimgoem.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/nova_multiimgoem.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/nova_uefi.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/nova_uefi.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/nova_xbl.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/nova_xbl.img \
+    vendor/ayn/odin2_ack/proprietary/product/etc/firmware/nova_xbl_config.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/nova_xbl_config.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2_abl.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2_abl.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2_bluetooth.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2_bluetooth.img \
     vendor/ayn/odin2_ack/proprietary/product/etc/firmware/odin2_multiimgoem.img:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/odin2_multiimgoem.img \
